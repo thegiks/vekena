@@ -1,0 +1,407 @@
+.lb-cnt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.jb-pstns{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+.jb-pstns h4{
+    font-size: 34px;
+    margin: 20px auto;
+}
+.jb-pstns ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.jb-pstns ul li{
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    display: flex;
+    background-color: rgb(247, 151, 9);
+    border-radius: 5px;
+}
+.jb-pstns ul li .js-img{
+    height: 150px;
+    width: 100px;
+    background: white;
+}
+.jb-pstns ul li .js-img img{
+    height: 150px;
+    width: 100px;
+}
+.jbs-d{
+    padding: 5px 1px;
+}
+.jbs-d p{
+    width: 90%;
+    font-size: 12px;
+    color: white;
+    margin: auto;
+}
+.jbs-d h4{
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 5px;
+}
+
+.cn-lnks{
+    width: 96%;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.cn-lnks h5{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    font-size: 11px;
+    border-radius: 2px;
+}
+.cn-lnks h6{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    font-size: 11px;
+    border-radius: 2px;
+}
+.cn-lnks a{
+    color: rgb(12, 146, 255);
+}
+
+/* 
+    JOB LISTING
+                */
+
+.job-list-cnt{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.jb-lst-l{
+    width: 60%;
+    min-height: 600px;
+    margin-bottom: 20px;
+}
+.jb-lst-l h4{
+    font-size: 38px;
+    text-align: center;
+    margin: 20px auto;
+}
+.jb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: rgba(134, 134, 134, 0.39);
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.jb .jb-img{
+    height: 100px;
+}
+.jb-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.jb-lst-r{
+    display: flex;
+    position: fixed;
+    right: 2%;
+    background-color: rgb(240, 240, 240);
+    width: 35%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.jb-btns{
+    width: 100px;
+}
+.jb-dt-l{
+    display: flex;
+    align-items: center;
+}
+.jb-ttl h4{
+    font-size: 20px;
+    text-align: left;
+}
+.jb-ttl p{
+    font-size: 12px;
+    color: rgb(126, 126, 126);
+}
+.jb-ttl p span{
+    font-weight: 900;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.jb-ttl h5 .ap-nd{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.jb-ttl h5 .deu{
+    background-color: chocolate;
+    padding: 7px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.jb-btns p{
+    color: white;
+}
+.jb-btns h6{
+    margin: 20px auto;
+    font-size: 14px;
+    color: gray;
+}
+.jb-btns h6 i{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.jb-btns h5 a{
+    background-color: rgb(226, 139, 7);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+}
+.lctn{
+    margin-top: 20px;
+}
+.lctn i{
+    margin-right: 10px;
+}
+.jb-lst-r-r{
+    width: 45%;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.jb-lst-r-r h4{
+    margin: 5px auto;
+    color: burlywood;
+    font-size: 18px;
+    text-align: center;
+}
+.jb-lst-r-r .h4s{
+    font-size: 12px;
+    text-align: left;
+}
+.jb-lst-r-r li{
+    margin: 2px 0;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.jb-lst-r-r li input{
+    margin-right: 10px;
+}
+.jb-lst-r-l{
+    width: 45%;
+    margin: auto;
+}
+.jb-lst-r-l h4{
+    color: rgb(0, 0, 0);
+    margin: 10px auto;
+}
+.jb-lst-r-l .jb-h-cnt p{
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    line-height: 25px;
+}
+.jb-lst-r-l .jb-h-cnt p a{
+    background-color: rgb(5, 176, 255);
+    padding: 2px 5px;
+    color: white;
+    border-radius: 2px;
+}
+.jb-lst-r-l .jb-ss-cnt p{
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+}
+.jb-lst-r-l .jb-ss-cnt p a{
+    background-color: rgb(5, 176, 255);
+    padding: 2px 5px;
+    color: white;
+    border-radius: 2px;
+}
+.jb-app{
+    background-color: rgb(5, 142, 255);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.jb-app h4{
+    color: white;
+    font-size: 16px;
+}
+.jp-app-d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jb-h-cnt .sm{
+    font-size: 12px;
+    width: fit-content;
+    margin: 10px 0;
+    margin-left: 70%;
+}
+.jb-h-cnt .sm a{
+    color: rgb(39, 114, 255);
+}
+.sts-c{
+    display: flex;
+    align-items: center;
+}
+.sts-c h5{
+    color: white;
+    padding-right: 5px;
+}
+.sts-c-l li{
+    background-color: white;
+    border-radius: 3px;
+    padding: 1px 5px;
+}
+.sts-c-l .pd-r{
+    font-size: 11px;
+    color: rgb(189, 177, 10);
+}
+.sts-c-l .un-r{
+    font-size: 11px;
+    color: rgb(163, 7, 253);
+}
+.sts-c-l .rvd-r{
+    font-size: 12px;
+    color: rgb(4, 185, 4);
+}
+.status h6{
+    color: rgb(88, 88, 88);
+    font-size: 10px;
+    margin-top: 5px;
+}
+.ss-upd{
+    font-size: 10px;
+}
+.ss-p{
+    background-color: rgb(1, 155, 1);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.knt-p{
+    background-color: rgb(160, 10, 219);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.upc-p{
+    background-color: rgb(211, 173, 4);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* JOB Details */
+
+.jb-dtls{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.jb-dtls .fa-times{
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
+.jb-dtls .jb-cntnts{
+    padding: 10px;
+    width: fit-content;
+    height: 90vh;
+    margin: 10px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: scroll;
+}
+.jb-cntnts h4{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+.jb-desc p{
+    width: 400px;
+    font-size: 12px;
+    color: rgb(109, 109, 109);
+    text-align: center;
+}
+.jb-respo h5{
+    font-size: 18px;
+    margin: 5px;
+    color: rgb(202, 133, 5);
+}
+.jb-respo ul{
+    margin: 5px 10px;
+}
+.jb-respo ul li{
+    list-style: decimal;
+    font-weight: 600;
+    font-size: 12px;
+}
+.jb-frm{
+    display: grid;
+}
+.jb-ap-ar h5{
+    font-size: 18px;
+    margin: 10px 0;
+    color: rgb(202, 133, 5);
+}
+.jb-ap-ar .jb-frm input,
+.jb-ap-ar .jb-frm textarea{
+    width: 90%;
+    height: 40px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(219, 219, 219);
+    margin: 10px auto;
+}
+.jb-ap-ar .jb-frm textarea{
+    height: 150px;
+    resize: none;
+}
+.jb-ap-ar .jb-frm .fl-cnt{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+}
+.jb-ap-ar .jb-frm button{
+    width: fit-content;
+    padding: 5px 10px;
+    margin-left: 80%;
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
